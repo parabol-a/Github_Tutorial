@@ -21,7 +21,7 @@ void setup()
 
 void loop() 
 {
-  int myValue = 0;
+  int myValue = 0; // indeed, byte is not suitable.
   myValue = analogRead(A0);
   
   Serial.print("The value is: ");
